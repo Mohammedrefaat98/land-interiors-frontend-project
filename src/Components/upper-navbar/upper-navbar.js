@@ -6,9 +6,13 @@ import {ReactComponent as NavMenu} from '../../assets/icons/nav-menu.svg';
 export default function UpperNavbar({handleNavMenu}) {
   return (
     <div className='upper-header'>
-      <Logo className='logo'/>
+      <div className='logo'>
+        <Logo/>
+      </div>
       <span className='spacer'/>
-      <NavMenu className='nav-menu-btn' onClick={handleNavMenu}/>
+      <div className='nav-menu-btn'>
+        <NavMenu onClick={handleNavMenu}/>
+      </div>
       <ul>
         <li>
           <a href="/#">Join as Design Expert</a>
