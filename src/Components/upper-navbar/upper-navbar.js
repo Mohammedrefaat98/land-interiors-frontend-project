@@ -10,7 +10,7 @@ export default function UpperNavbar({handleNavMenu}) {
         <Logo/>
       </div>
       <span className='spacer'/>
-      <div className='nav-menu-btn'>
+      <div  className='nav-menu-btn'>
         <NavMenu onClick={handleNavMenu}/>
       </div>
       <ul>

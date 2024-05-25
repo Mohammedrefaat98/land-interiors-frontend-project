@@ -10,6 +10,9 @@
 .lower-menu-bar ul{
   gap: 5vw;
 }
+.lower-menu-bar ul li{
+  font-size: 1.5vmax;
+}
 
 @media (max-width: 767px){
   .lower-menu-bar{

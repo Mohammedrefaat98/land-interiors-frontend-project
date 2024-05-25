@@ -6,11 +6,11 @@
   
   .logo{
     margin: 37px;
-    height: 100%;
   }
   
   .upper-header ul li{
     margin: 0 5vw 0 0;
+    font-size: 1.5vmax;
   }
 
   .spacer{
