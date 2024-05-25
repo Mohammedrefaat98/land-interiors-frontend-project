@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2em;
 }
 
 .second-body p{
@@ -37,9 +38,24 @@
 }
 
 @media (max-width: 767px){
+    .second-body{
+        gap: 1em;
+    }
     .row-container{
-        display: flex;
-        flex-direction: row;
-        gap: 15vw;
+        gap: 25vw;
+    }
+    .card{
+        width: 12.5vw;
+    }
+    .icon-container{
+        width: 6vw;
+    }
+    .text-container{
+        text-align: center;
+    }
+    .text-container p{
+        font-weight: 400;
+        font-size: 2vw;
+        margin: 0;
     }
 }
