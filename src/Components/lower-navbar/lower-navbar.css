@@ -1,0 +1,21 @@
+.lower-menu-bar{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+.upper-menu-bar{
+  display: none;
+}
+
+.lower-menu-bar ul{
+  gap: 5vw;
+}
+
+@media (max-width: 767px){
+  .lower-menu-bar{
+    height:fit-content;
+  }
+  .upper-menu-bar{
+    display: flex;
+  }
+}

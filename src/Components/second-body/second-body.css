@@ -1,0 +1,47 @@
+.second-body{
+    padding: 3vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.second-body p{
+    font-weight: 500;
+    font-size: 3vw;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 15vh;
+}
+.icon-container{
+    width: 5vw;
+}
+.text-container{
+    text-align: center;
+}
+.text-container p{
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+@media (max-width: 767px){
+    .row-container{
+        display: flex;
+        flex-direction: row;
+        gap: 15vw;
+    }
+}

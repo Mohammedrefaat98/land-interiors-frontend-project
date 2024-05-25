@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import {ReactComponent as FirstRectangle} from './assets/icons/first-rectangle.svg';
 import './App.css';
-
+import Header from './Components/header/header';
+import FirstBody from './Components/first-body/first-body';
+import SecondBody from './Components/second-body/second-body';
+import ThirdBody from './Components/third-body/third-body';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header className='header'/>
+      <div className='first-rectangle-container'>
+        <FirstRectangle/>
+      </div>
+      <div className='space'>
+      </div>
+      <FirstBody/>
+      <SecondBody/>
     </div>
   );
 }
