@@ -1,0 +1,112 @@
+.fourth-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 2em;
+}
+
+.fourth-body-title{
+    font-weight: 500;
+    font-size: 2.5vw;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 5vw;
+}
+
+.scroll-row-container{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.blog-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-row-container img{
+    height: 18vw;
+    width: 20vw;
+}
+.scroll-row-container .blog-card:first-child{
+    margin-left: 5vw;
+}
+.scroll-row-container .blog-card:last-child{
+    margin-right: 5vw;
+}
+.blog-text-container{
+    width: 100%;
+}
+
+.blog-text-container p{
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.blog-text-container p:last-child{
+    width: 80%;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.lower-button{
+    display: flex;
+    justify-content: center;
+}
+.lower-button button{
+    background-color: #4B2A63;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    padding: 1.25vw 4vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+@media (max-width: 767px){
+    .fourth-body{
+        gap: 1em;
+    }
+    .fourth-body-title{
+        padding-left: 8vw;
+        width: 92%;
+        text-align: left;
+        font-size: 2.5vw;
+    }
+    .image-row-container{
+        flex-wrap: wrap;
+    }
+    .blog-image-container img{
+        height: 40vw;
+        width: 40vw;
+        border-radius: 2vw;
+    }
+    .blog-text-container p{
+        font-weight: 400;
+        font-size: 2vw;
+        margin: 0;
+    }
+    .blog-text-container p:last-child{
+        width: 80%;
+        font-size: 2vw;
+        font-weight: 400;
+    }
+    .scroll-row-container .blog-card:first-child{
+        margin-left: 8vw;
+    }
+    .scroll-row-container .blog-card:last-child{
+        margin-right: 8vw;
+    }
+    .lower-button{
+        display: none;
+    }
+}

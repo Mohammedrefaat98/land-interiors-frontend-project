@@ -9,7 +9,7 @@
 
 .title{
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
 }
 
@@ -47,7 +47,8 @@
 .lower-text{
     width:56%;
 }
-.lower-text p{
+
+.lower-text{
     font-size: 1.1vw;
     font-weight: 400;
     text-align: center;
