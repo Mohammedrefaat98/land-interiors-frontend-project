@@ -93,7 +93,6 @@
     .blog-text-container p{
         font-weight: 400;
         font-size: 2vw;
-        margin: 0;
     }
     .blog-text-container p:last-child{
         width: 80%;
