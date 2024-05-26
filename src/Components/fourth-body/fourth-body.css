@@ -80,7 +80,7 @@
         padding-left: 8vw;
         width: 92%;
         text-align: left;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .image-row-container{
         flex-wrap: wrap;
@@ -91,12 +91,12 @@
         border-radius: 2vw;
     }
     .blog-text-container p{
-        font-weight: 400;
-        font-size: 2vw;
+        font-weight: 500;
+        font-size: 3vw;
     }
     .blog-text-container p:last-child{
         width: 80%;
-        font-size: 2vw;
+        font-size: 2.5vw;
         font-weight: 400;
     }
     .scroll-row-container .blog-card:first-child{
