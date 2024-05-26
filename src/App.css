@@ -6,6 +6,15 @@
     z-index: -1;
 }
 
+.second-rectangle-container{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.second-rectangle-container svg{
+    width: 100%;
+    height: auto;
+}
 .first-rectangle-container svg{
     width: 100%;
     height: auto;
