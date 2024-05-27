@@ -1,22 +1,23 @@
 .header{
   background-color: #F8F8F8;
 }
- ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+a{
+  text-decoration: none;
+  color: #451A64;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 767px){
+  ul{
+    flex-direction: column;
   }
-  
-  a{
-    text-decoration: none;
-    color: #451A64;
-    font-weight: 500;
-  }
-  
-  @media (max-width: 767px){
-    ul{
-      flex-direction: column;
-    }
-  }
+}
