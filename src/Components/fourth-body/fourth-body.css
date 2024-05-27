@@ -33,6 +33,7 @@
 .scroll-row-container img{
     height: 18vw;
     width: 20vw;
+    border-radius: 1vw;
 }
 .scroll-row-container .blog-card:first-child{
     margin-left: 5vw;

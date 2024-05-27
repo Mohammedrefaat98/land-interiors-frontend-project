@@ -41,6 +41,10 @@
     .second-body{
         gap: 1em;
     }
+    .second-body p{
+        font-weight: 500;
+        font-size: 3.5vw;
+    }
     .row-container{
         gap: 20vw;
     }
@@ -48,14 +52,14 @@
         width: 14vw;
     }
     .icon-container{
-        width: 6vw;
+        width: 7vw;
     }
     .text-container{
         text-align: center;
     }
     .text-container p{
         font-weight: 400;
-        font-size: 2vw;
+        font-size: 2.3vw;
         margin: 0;
     }
 }
