@@ -9,7 +9,7 @@ ul{
   flex-direction: row;
 }
 
-a{
+.header a{
   text-decoration: none;
   color: #451A64;
   font-weight: 500;
@@ -19,5 +19,8 @@ a{
 @media (max-width: 767px){
   ul{
     flex-direction: column;
+  }
+  .header a{
+    font-size: 5vw;
   }
 }
