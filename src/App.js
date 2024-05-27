@@ -7,6 +7,7 @@ import FirstBody from './Components/first-body/first-body';
 import SecondBody from './Components/second-body/second-body';
 import ThirdBody from './Components/third-body/third-body';
 import FourthBody from './Components/fourth-body/fourth-body';
+import Footer from './Components/footer/footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <SecondRectangle/>
       </div>
       <FourthBody/>
+      <Footer/>
     </div>
   );
 }
