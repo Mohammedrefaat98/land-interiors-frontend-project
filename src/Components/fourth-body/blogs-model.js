@@ -2,7 +2,7 @@ import modernInterior from '../../assets/images/fourth-body-image1.png';
 import exteriorProject from '../../assets/images/fourth-body-image2.png';
 import greyBeauty from '../../assets/images/fourth-body-image3.png';
 import plantationInterior from '../../assets/images/fourth-body-image4.png';
-import roleOfFurnitures from '../../assets/images/fourth-body-image4.png';
+import roleOfFurnitures from '../../assets/images/fourth-body-image5.png';
 
 export const blogs=[
     {
