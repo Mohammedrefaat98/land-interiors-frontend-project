@@ -106,11 +106,24 @@
       justify-content: center;
       gap: 1vw;
     }
+    .social-media a {
+      font-size: 3vw;
+    }
     .footer-contact{
       text-align: center;
     }
     .footer-contact span{
       display: none;
+    }
+    .footer-logo svg{
+      width: 15vw;
+      height: 15vw;
+    }
+    .footer-contact p{
+      font-size: 3vw;
+    }
+    .footer-contact p{
+      margin: 01vw;
     }
   }
   
