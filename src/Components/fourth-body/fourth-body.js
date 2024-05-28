@@ -17,6 +17,7 @@ export default function FourthBody() {
             {
                 breakpoint: 767,
                 settings: {
+                    initialSlide: 0,
                     infinite: false,
                     speed: 500,
                     slidesToShow: 2,
