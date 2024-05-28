@@ -3,7 +3,6 @@
 .footer {
     background-color: #f9f9f9;
     padding: 40px 20px;
-    font-family: Arial, sans-serif;
   }
   
   .footer-section {
@@ -14,6 +13,7 @@
   
   .footer-logo {
     max-width: 40vw;
+    margin: 1vw 0;
   }
   
   .footer-logo img {
@@ -22,11 +22,15 @@
   }
   
   .footer-logo p {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     line-height: 1.6;
     color: #333;
     width: 80%;
-    padding-left: 3vw;
+    padding-left: 2vw;
+  }
+  .footer-logo svg{
+    width: 7vw;
+    height: 7vw;
   }
   
   .footer-links, .footer-contact {
@@ -34,48 +38,79 @@
   }
   
   .footer-links h4, .footer-contact h4 {
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 1.8vw;
+    margin: 4vw 0;
     color: #333;
   }
   
   .footer-links ul {
     list-style-type: none;
     padding: 0;
+    flex-direction: column;
+    gap: 1vw;
   }
   
   .footer-links ul li {
     margin-bottom: 8px;
-    font-size: 14px;
+    font-size: 1.8vw;
     color: #555;
   }
   
   .footer-contact p {
-    font-size: 14px;
+    font-size: 1.8vw;
     margin-bottom: 8px;
     color: #555;
   }
   
+  .social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2vw;
+    width: 20%;
+  }
+
   .social-media a {
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 1.8vw;
     color: #555;
   }
   
   .footer-bottom {
     text-align: center;
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
+    display: flex;
+    gap: 2vw;
   }
   
   .footer-bottom a {
-    margin: 0 10px;
-    font-size: 14px;
+    font-size: 1.8vw;
     color: #555;
     text-decoration: none;
   }
-  
-  .footer-bottom a:hover {
-    text-decoration: underline;
+
+  @media (max-width: 767px){
+    .footer{
+      padding: 2vw 0 6vw 0;
+    }
+    .hidden{
+      display: none;
+    }
+    .mobile-direction{
+      flex-direction: column;
+    }
+    .footer-section{
+      align-items: center;
+    }
+    .social-media{
+      width: 100%;
+      justify-content: center;
+      gap: 1vw;
+    }
+    .footer-contact{
+      text-align: center;
+    }
+    .footer-contact span{
+      display: none;
+    }
   }
   

@@ -1,0 +1,41 @@
+  .upper-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .logo{
+    margin: 3vw;
+    width: 8vw;
+    height: 8vw;
+  }
+  
+  .upper-header ul li{
+    margin: 0 5vw 0 0;
+    font-size: 1em;
+  }
+
+  .spacer{
+    flex: 1 1 auto;
+  }
+  
+  .nav-menu-btn{
+    display: none;
+  }
+  
+  @media (max-width: 767px){
+    .upper-header ul{
+      display: none;
+    }
+    .logo{
+      margin: 3vw 1.5vw;
+      width: 15vw;
+      height: 15vw;
+    }
+    .nav-menu-btn{
+      display: flex;
+      margin: 3vw 3vw;
+      width: 7.5vw;
+      height: 7.5vw;
+    }
+  }
