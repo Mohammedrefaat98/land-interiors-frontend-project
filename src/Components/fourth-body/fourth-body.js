@@ -35,9 +35,7 @@ export default function FourthBody() {
                 blogs.map((index)=>{
                     return (
                         <BlogCard
-                            image={index.image}
-                            title={index.title}
-                            content={index.content}
+                            {...index}
                         />
                     )
                 })
