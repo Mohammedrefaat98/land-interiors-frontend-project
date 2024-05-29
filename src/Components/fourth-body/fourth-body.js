@@ -32,10 +32,11 @@ export default function FourthBody() {
         <p className='fourth-body-title'>Blogs</p>
         <Slider {...settings} className='scroll-row-container'>
             {
-                blogs.map((index)=>{
+                blogs.map((element,index)=>{
                     return (
                         <BlogCard
-                            {...index}
+                            key={index}
+                            {...element}
                         />
                     )
                 })

@@ -5,13 +5,40 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-section mobile-direction">
-        <div className="footer-logo">
-          <Logo/>
+        <FooterLeft     />
+        <FooterMiddle     />
+        <FooterRight     />
+      </div>
+      <div className="footer-section">
+        <SocialMedia     />
+        <FooterMenu     />
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
+
+    function FooterLogo() {
+      return (<div className="footer-logo">
+          <Logo />
           <p className='hidden'>
             We introduce our selves as LAND Interior and Architectural Design Consultancy - one of the best interior designers in Chennai. Chennai Luxury Interior and Architectural Design Consultancy has challenged the conventional way of interior designing and given new dimensions to the art of interior designing.
           </p>
-        </div>
-        <div className="footer-links hidden">
+        </div>);
+    }
+
+    function FooterLeft() {
+      return (<div className="footer-logo">
+          <Logo />
+          <p className='hidden'>
+            We introduce our selves as LAND Interior and Architectural Design Consultancy - one of the best interior designers in Chennai. Chennai Luxury Interior and Architectural Design Consultancy has challenged the conventional way of interior designing and given new dimensions to the art of interior designing.
+          </p>
+        </div>);
+    }
+
+    function FooterMiddle() {
+      return (<div className="footer-links hidden">
           <h4>WHAT WE DO</h4>
           <ul>
             <li>Interior Design</li>
@@ -20,31 +47,34 @@ const Footer = () => {
             <li>Bedroom</li>
             <li>Smart Home</li>
           </ul>
-        </div>
-        <div className="footer-contact">
+        </div>);
+    }
+
+    function FooterRight({}) {
+      return (<div className="footer-contact">
           <h4 className='hidden'>Get in touch</h4>
           <p><span>Email: </span>landinteriors@gmail.com </p>
           <p><span>Phone: </span>+91 98987 65656</p>
-        </div>
-      </div>
-      <div className="footer-section">
-        <div className="social-media">
+        </div>);
+    }
+
+    function SocialMedia({}) {
+      return (<div className="social-media">
           <a href="/#"><i className="fab fa-facebook-f"></i></a>
           <a href="/#"><i className="fab fa-linkedin-in"></i></a>
           <a href="/#"><i className="fab fa-twitter"></i></a>
           <a href="/#"><i className="fab fa-youtube"></i></a>
           <a href="/#"><i className="fab fa-instagram"></i></a>
-        </div>
-        <div className="footer-bottom hidden">
+        </div>);
+    }
+
+    function FooterMenu({}) {
+      return (<div className="footer-bottom hidden">
           <a href="/#">About</a>
           <a href="/#">Projects</a>
           <a href="/#">Studio</a>
           <a href="/#">Blog</a>
           <a href="/#">Contact</a>
-        </div>
-      </div>
-    </footer>
-  );
-};
-
-export default Footer;
+        </div>);
+    }
+            
