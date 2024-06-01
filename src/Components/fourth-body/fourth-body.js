@@ -3,9 +3,11 @@ import React from 'react'
 import './fourth-body.css'
 import BlogCard from './blog-card/blog-card';
 import { blogs } from './blogs-model';
+
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 export default function FourthBody() {
     const settings = {
         infinite: false,
